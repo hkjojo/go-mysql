@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
+	. "github.com/hkjojo/go-mysql/mysql"
 	"github.com/pingcap/errors"
-	. "github.com/siddontang/go-mysql/mysql"
 )
 
 // Limiatation

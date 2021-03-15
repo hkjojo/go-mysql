@@ -12,14 +12,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/hkjojo/go-mysql/client"
+	"github.com/hkjojo/go-mysql/dump"
+	"github.com/hkjojo/go-mysql/mysql"
+	"github.com/hkjojo/go-mysql/replication"
+	"github.com/hkjojo/go-mysql/schema"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/client"
-	"github.com/siddontang/go-mysql/dump"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/replication"
-	"github.com/siddontang/go-mysql/schema"
 )
 
 // Canal can sync your MySQL data into everywhere, like Elasticsearch, Redis, etc...

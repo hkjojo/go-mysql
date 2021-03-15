@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"strings"
 
+	. "github.com/hkjojo/go-mysql/mysql"
 	"github.com/pingcap/errors"
 	"github.com/siddontang/go-log/log"
-	. "github.com/siddontang/go-mysql/mysql"
 )
 
 // Unlick mysqldump, Dumper is designed for parsing and syning data easily.
